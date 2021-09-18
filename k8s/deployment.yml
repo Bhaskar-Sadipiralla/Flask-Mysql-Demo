@@ -13,7 +13,7 @@ spec:
       labels:
         app: flask
     spec:
-      container:
+      containers:
       - name: flask
         image: 256910578059.dkr.ecr.us-east-2.amazonaws.com/flask-mysql:1
         ports:

@@ -10,7 +10,7 @@ spec:
  - host: flask.evschargingstation.com
    http:
      paths:
-     - path:
-       backend:
+      - path: "/"
+        backend:
          serviceName: flask-svc
          servicePort: 80
