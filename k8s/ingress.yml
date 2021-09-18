@@ -2,7 +2,7 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
  name: flask-ingress
- namespace: flask-Mysql
+ namespace: flask-mysql
  annotations:
    kubernetes.io/ingress.class: flask
 spec:
