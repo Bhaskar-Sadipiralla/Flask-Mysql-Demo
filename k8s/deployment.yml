@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: flask-eks
-  namespace: flask
+  namespace: flask-Mysql
 spec:
   selector:
     matchLabels:
